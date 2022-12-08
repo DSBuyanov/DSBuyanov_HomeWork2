@@ -9,7 +9,7 @@
 Console.WriteLine("Введите число: ");
 int N = int.Parse(Console.ReadLine()!);
 int num = 1;
-// Console.WriteLine($"Таблица кубов числа: {N}, от 1 до числа {N}");
+
 while (num < N + 1)
 {
     int result = num * num * num;
