@@ -9,9 +9,12 @@
 // 23432 -> да
 
 Console.Write("Введите число: ");
+
 string? number = Console.ReadLine();
 
 void result(string number)
+
+
 {
     if (number[0] == number[4] || number[1] == number[3])
     {
